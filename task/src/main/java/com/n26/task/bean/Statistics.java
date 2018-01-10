@@ -9,7 +9,7 @@ public class Statistics
   final double avg;
   final double max;
   final double min;
-  final int count;
+  final int count; 
 
   @JsonCreator
   public Statistics(@JsonProperty("sum") double sum,
